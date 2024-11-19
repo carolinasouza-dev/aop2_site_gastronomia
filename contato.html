@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gastro World</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-header-principal">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./receitas.html">Receitas</a></li>
+                    <li><a href="./coqueteis.html">Coquetéis</a></li>
+                    <li><a href="./lugares.html">Lugares</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="title-index">
+                <h1>GastroWorld</h1>
+            </div>
+            <div class="container">
+                <h1>Contato</h1>
+                <p>Mande uma mensagem para nós. Estamos aguardando 😀</p>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input  id="name" type="text"  name="name" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input  id="email" type="email"  name="email" placeholder="Digite seu e-mail" >
+                    </div>
+                    <div>
+                        <label for="message">Mensagem:</label>
+                        <textarea id="menssagem" name="message" rows="5" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+
+                    <button id="enviarMsg" type="button" onclick="enviarAlertaOK()">Enviar</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h3>GastroWorld @2024</h3>
+        </footer>
+    </body>
+</html>
