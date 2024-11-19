@@ -1,2 +1,1 @@
-# AOP2 - Site de Gastronomia
-Este é um exemplo de site sobre gastronomia
+# AOP2 - Site de Gastronomia chamado GastroWorld
